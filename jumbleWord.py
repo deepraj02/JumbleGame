@@ -57,11 +57,15 @@ e1.pack(ipady=5, ipadx=5)
 
 button1 = Button(root, text="Check", bg='#75DA8B',
                  width=20, command=answercheck)
-button1.pack(pady=40)
+button1.pack(pady=35)
+
+button3 = Button(root, text="Change Word", bg="#75DA8B",
+                 width=20, command=resetswitch)
+button3.pack(pady=20)
 
 button2 = Button(root, text="Exit", bg="#EA425C",
                  width=20, command=quit)
-button2.pack()
+button2.pack(pady=20)
 
 
 initial()
